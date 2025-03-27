@@ -2,8 +2,8 @@
 
 namespace Axcel\AxcelCore\Eloquent\Relations;
 
-use Axcel\Core\Eloquent\Foundations\Model;
-use Axcel\Core\Eloquent\Foundations\Collection;
+use Axcel\AxcelCore\Eloquent\Foundations\Model;
+use Axcel\AxcelCore\Eloquent\Foundations\Collection;
 
 abstract class Relation
 {

@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Routing;
 
-use Axcel\Core\Bus\Container;
+use Axcel\AxcelCore\Bus\Container;
 use ReflectionParameter;
 
 class ModelBindingService

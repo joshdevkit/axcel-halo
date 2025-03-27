@@ -2,8 +2,8 @@
 
 namespace Axcel\AxcelCore\Console\Commands;
 
-use Axcel\Core\Console\CommandInterface;
-use Axcel\Core\Migrations\MigrationParser;
+use Axcel\AxcelCore\Console\CommandInterface;
+use Axcel\AxcelCore\Migrations\MigrationParser;
 
 class MigrationCommand implements CommandInterface
 {

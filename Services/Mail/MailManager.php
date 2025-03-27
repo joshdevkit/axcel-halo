@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Services\Mail;
 
-use Axcel\Core\Autloader\Config;
+use Axcel\AxcelCore\Autloader\Config;
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;

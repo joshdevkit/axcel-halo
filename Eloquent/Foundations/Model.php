@@ -2,18 +2,18 @@
 
 namespace Axcel\AxcelCore\Eloquent\Foundations;
 
-use Axcel\Core\Attributes\Str;
-use Axcel\Core\Eloquent\Database\Builder\Builder;
-use Axcel\Core\Eloquent\Database\ConnectionManager;
-use Axcel\Core\Eloquent\Foundations\Traits\GuardsAttributes;
-use Axcel\Core\Eloquent\Foundations\Traits\CastAttribute;
-use Axcel\Core\Eloquent\Foundations\Traits\HasBuilderMethods;
-use Axcel\Core\Eloquent\Foundations\Traits\HideAttributes;
-use Axcel\Core\Eloquent\Relations\BelongsTo;
-use Axcel\Core\Eloquent\Relations\BelongsToMany;
-use Axcel\Core\Eloquent\Relations\HasMany;
-use Axcel\Core\Eloquent\Relations\HasOne;
-use Axcel\Core\Exceptions\StaticMethodException;
+use Axcel\AxcelCore\Attributes\Str;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Builder;
+use Axcel\AxcelCore\Eloquent\Database\ConnectionManager;
+use Axcel\AxcelCore\Eloquent\Foundations\Traits\GuardsAttributes;
+use Axcel\AxcelCore\Eloquent\Foundations\Traits\CastAttribute;
+use Axcel\AxcelCore\Eloquent\Foundations\Traits\HasBuilderMethods;
+use Axcel\AxcelCore\Eloquent\Foundations\Traits\HideAttributes;
+use Axcel\AxcelCore\Eloquent\Relations\BelongsTo;
+use Axcel\AxcelCore\Eloquent\Relations\BelongsToMany;
+use Axcel\AxcelCore\Eloquent\Relations\HasMany;
+use Axcel\AxcelCore\Eloquent\Relations\HasOne;
+use Axcel\AxcelCore\Exceptions\StaticMethodException;
 use Exception;
 use PDO;
 use ReflectionMethod;

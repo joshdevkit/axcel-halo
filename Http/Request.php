@@ -2,9 +2,9 @@
 
 namespace Axcel\AxcelCore\Http;
 
-use Axcel\Core\Http\Concerns\InteractsWithFileBag;
-use Axcel\Core\Http\Concerns\InteractsWithInputBag;
-use Axcel\Core\Validators\Validator;
+use Axcel\AxcelCore\Http\Concerns\InteractsWithFileBag;
+use Axcel\AxcelCore\Http\Concerns\InteractsWithInputBag;
+use Axcel\AxcelCore\Validators\Validator;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
 class Request extends SymfonyRequest

@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Eloquent\Foundations\Traits;
 
-use Axcel\Core\Application;
+use Axcel\AxcelCore\Application;
 use DateTime;
 
 trait CastAttribute

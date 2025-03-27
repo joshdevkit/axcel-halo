@@ -2,10 +2,10 @@
 
 namespace Axcel\AxcelCore\Auth;
 
-use Axcel\Core\Auth\Contracts\AuthenticatableContract;
-use Axcel\Core\Forpart\Hash;
+use Axcel\AxcelCore\Auth\Contracts\AuthenticatableContract;
+use Axcel\AxcelCore\Forpart\Hash;
 use App\Models\User;
-use Axcel\Core\Session\SessionManager;
+use Axcel\AxcelCore\Session\SessionManager;
 
 class AuthManager
 {

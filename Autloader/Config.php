@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Autloader;
 
-use Axcel\Core\Bus\Container;
+use Axcel\AxcelCore\Bus\Container;
 
 class Config
 {

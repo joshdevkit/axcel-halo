@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Eloquent\Foundations\Traits;
 
-use Axcel\Core\Eloquent\Foundations\Collection;
+use Axcel\AxcelCore\Eloquent\Foundations\Collection;
 use PDO;
 
 trait EagerLoading

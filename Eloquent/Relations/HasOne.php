@@ -3,8 +3,8 @@
 
 namespace Axcel\AxcelCore\Eloquent\Relations;
 
-use Axcel\Core\Eloquent\Database\Builder\Builder;
-use Axcel\Core\Eloquent\Foundations\Model;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Builder;
+use Axcel\AxcelCore\Eloquent\Foundations\Model;
 
 class HasOne extends Relation
 {

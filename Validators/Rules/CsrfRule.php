@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Validators\Rules;
 
-use Axcel\Core\Http\Request;
+use Axcel\AxcelCore\Http\Request;
 use Symfony\Component\Security\Csrf\CsrfToken;
 
 class CsrfRule

@@ -2,8 +2,8 @@
 
 namespace Axcel\AxcelCore\Console;
 
-use Axcel\Core\Console\Commands\MigrateCommand;
-use Axcel\Core\Console\Commands\MigrationCommand;
+use Axcel\AxcelCore\Console\Commands\MigrateCommand;
+use Axcel\AxcelCore\Console\Commands\MigrationCommand;
 
 class CommandRunner
 {

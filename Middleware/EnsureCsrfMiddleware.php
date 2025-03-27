@@ -2,8 +2,8 @@
 
 namespace Axcel\AxcelCore\Middleware;
 
-use Axcel\Core\Http\Request;
-use Axcel\Core\Http\Response;
+use Axcel\AxcelCore\Http\Request;
+use Axcel\AxcelCore\Http\Response;
 
 class EnsureCsrfMiddleware implements MiddlewareInterface
 {

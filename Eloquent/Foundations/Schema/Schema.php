@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Eloquent\Foundations\Schema;
 
-use Axcel\Core\Eloquent\Foundations\Migrations\Migration;
+use Axcel\AxcelCore\Eloquent\Foundations\Migrations\Migration;
 
 class Schema
 {

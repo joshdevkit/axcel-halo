@@ -1,10 +1,10 @@
 <?php
 
 
-use Axcel\Core\Application;
-use Axcel\Core\Attributes\Carbon;
-use Axcel\Core\Http\Redirect;
-use Axcel\Core\Http\Response;
+use Axcel\AxcelCore\Application;
+use Axcel\AxcelCore\Attributes\Carbon;
+use Axcel\AxcelCore\Http\Redirect;
+use Axcel\AxcelCore\Http\Response;
 
 if (!function_exists('env')) {
     function env($key, $default = null)

@@ -2,8 +2,8 @@
 
 namespace Axcel\AxcelCore\Security;
 
-use Axcel\Core\Contracts\Hashing as HashingInterface;
-use Axcel\Core\Contracts\Hashing\AbstractHasher;
+use Axcel\AxcelCore\Contracts\Hashing as HashingInterface;
+use Axcel\AxcelCore\Contracts\Hashing\AbstractHasher;
 use RuntimeException;
 
 class HasherPackage extends AbstractHasher implements HashingInterface

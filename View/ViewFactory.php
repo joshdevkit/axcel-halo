@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\View;
 
-use Axcel\Core\Bus\Container;
+use Axcel\AxcelCore\Bus\Container;
 
 class ViewFactory
 {

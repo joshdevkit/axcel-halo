@@ -2,19 +2,19 @@
 
 namespace Axcel\AxcelCore\Validators;
 
-use Axcel\Core\Validators\Rules\ConfirmedRule;
-use Axcel\Core\Validators\Rules\CsrfRule;
-use Axcel\Core\Validators\Rules\DateRule;
-use Axcel\Core\Validators\Rules\EmailRule;
-use Axcel\Core\Validators\Rules\ExistsRule;
-use Axcel\Core\Validators\Rules\FileRule;
-use Axcel\Core\Validators\Rules\ImageRule;
-use Axcel\Core\Validators\Rules\IntegerRule;
-use Axcel\Core\Validators\Rules\MaxRule;
-use Axcel\Core\Validators\Rules\MinRule;
-use Axcel\Core\Validators\Rules\NumericRule;
-use Axcel\Core\Validators\Rules\StringRule;
-use Axcel\Core\Validators\Rules\UniqueRule;
+use Axcel\AxcelCore\Validators\Rules\ConfirmedRule;
+use Axcel\AxcelCore\Validators\Rules\CsrfRule;
+use Axcel\AxcelCore\Validators\Rules\DateRule;
+use Axcel\AxcelCore\Validators\Rules\EmailRule;
+use Axcel\AxcelCore\Validators\Rules\ExistsRule;
+use Axcel\AxcelCore\Validators\Rules\FileRule;
+use Axcel\AxcelCore\Validators\Rules\ImageRule;
+use Axcel\AxcelCore\Validators\Rules\IntegerRule;
+use Axcel\AxcelCore\Validators\Rules\MaxRule;
+use Axcel\AxcelCore\Validators\Rules\MinRule;
+use Axcel\AxcelCore\Validators\Rules\NumericRule;
+use Axcel\AxcelCore\Validators\Rules\StringRule;
+use Axcel\AxcelCore\Validators\Rules\UniqueRule;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 

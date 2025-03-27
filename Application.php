@@ -2,20 +2,20 @@
 
 namespace Axcel\AxcelCore;
 
-use Axcel\Core\Auth\AuthManager;
-use Axcel\Core\Autloader\Config;
-use Axcel\Core\Autloader\EnvLoader;
-use Axcel\Core\Bus\Container;
-use Axcel\Core\Routing\Router;
-use Axcel\Core\Middleware\MiddlewareRegistry;
-use Axcel\Core\Eloquent\Database\Database;
-use Axcel\Core\Exceptions\NativeException;
-use Axcel\Core\Http\Request;
-use Axcel\Core\Http\Response;
-use Axcel\Core\Security\HasherPackage;
-use Axcel\Core\Services\Mail\MailManager;
-use Axcel\Core\Session\SessionManager;
-use Axcel\Core\View\ViewFactory;
+use Axcel\AxcelCore\Auth\AuthManager;
+use Axcel\AxcelCore\Autloader\Config;
+use Axcel\AxcelCore\Autloader\EnvLoader;
+use Axcel\AxcelCore\Bus\Container;
+use Axcel\AxcelCore\Routing\Router;
+use Axcel\AxcelCore\Middleware\MiddlewareRegistry;
+use Axcel\AxcelCore\Eloquent\Database\Database;
+use Axcel\AxcelCore\Exceptions\NativeException;
+use Axcel\AxcelCore\Http\Request;
+use Axcel\AxcelCore\Http\Response;
+use Axcel\AxcelCore\Security\HasherPackage;
+use Axcel\AxcelCore\Services\Mail\MailManager;
+use Axcel\AxcelCore\Session\SessionManager;
+use Axcel\AxcelCore\View\ViewFactory;
 use Symfony\Component\Security\Csrf\CsrfTokenManager;
 use Symfony\Component\Security\Csrf\TokenGenerator\UriSafeTokenGenerator;
 use Symfony\Component\Security\Csrf\TokenStorage\SessionTokenStorage;

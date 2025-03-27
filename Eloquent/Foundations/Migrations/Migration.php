@@ -2,7 +2,7 @@
 
 namespace Axcel\AxcelCore\Eloquent\Foundations\Migrations;
 
-use Axcel\Core\Eloquent\Foundations\Schema\Blueprint;
+use Axcel\AxcelCore\Eloquent\Foundations\Schema\Blueprint;
 
 class Migration
 {

@@ -2,14 +2,14 @@
 
 namespace Axcel\AxcelCore\Eloquent\Database\Builder;
 
-use Axcel\Core\Eloquent\Database\Builder\Traits\CompileFirst;
-use Axcel\Core\Eloquent\Database\Builder\Traits\Compiler;
-use Axcel\Core\Eloquent\Database\Builder\Traits\CompileWheres;
-use Axcel\Core\Eloquent\Database\Builder\Traits\Counting;
-use Axcel\Core\Eloquent\Database\Builder\Traits\Orders;
-use Axcel\Core\Eloquent\Foundations\Model;
-use Axcel\Core\Eloquent\Database\ConnectionManager;
-use Axcel\Core\Eloquent\Foundations\Collection;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Traits\CompileFirst;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Traits\Compiler;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Traits\CompileWheres;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Traits\Counting;
+use Axcel\AxcelCore\Eloquent\Database\Builder\Traits\Orders;
+use Axcel\AxcelCore\Eloquent\Foundations\Model;
+use Axcel\AxcelCore\Eloquent\Database\ConnectionManager;
+use Axcel\AxcelCore\Eloquent\Foundations\Collection;
 use PDO;
 use Exception;
 
