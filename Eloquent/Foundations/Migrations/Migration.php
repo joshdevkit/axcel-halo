@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Foundations\Migrations;
+namespace Axcel\AxcelCore\Eloquent\Foundations\Migrations;
 
 use Axcel\Core\Eloquent\Foundations\Schema\Blueprint;
 

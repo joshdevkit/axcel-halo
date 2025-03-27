@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Autloader;
+namespace Axcel\AxcelCore\Autloader;
 
 use Dotenv\Dotenv;
 

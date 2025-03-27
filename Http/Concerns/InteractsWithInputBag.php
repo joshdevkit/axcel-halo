@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Http\Concerns;
+namespace Axcel\AxcelCore\Http\Concerns;
 
 trait InteractsWithInputBag
 {

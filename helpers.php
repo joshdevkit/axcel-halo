@@ -195,7 +195,7 @@ if (!function_exists('request')) {
      * 
      * @param string|null $key The key to retrieve from request data.
      * @param mixed $default The default value if the key is not found.
-     * @return mixed|\App\Core\Request
+     * @return mixed|\Axcel\AxcelCore\Request
      */
     function request($key = null, $default = null)
     {
@@ -234,7 +234,7 @@ if (!function_exists('app')) {
      *
      * @param  string|null  $abstract  Optional abstract type to resolve from the container
      * @param  array  $parameters  Optional parameters to pass to the resolver
-     * @return mixed|\App\Core\Application
+     * @return mixed|\Axcel\AxcelCore\Application
      */
     function app($abstract = null, array $parameters = [])
     {

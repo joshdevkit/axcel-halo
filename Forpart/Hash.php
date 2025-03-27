@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Forpart;
+namespace Axcel\AxcelCore\Forpart;
 
 /**
  * @method static array info(string $hashedValue)

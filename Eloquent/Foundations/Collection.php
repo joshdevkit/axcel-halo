@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Foundations;
+namespace Axcel\AxcelCore\Eloquent\Foundations;
 
 use ArrayAccess;
 use ArrayIterator;

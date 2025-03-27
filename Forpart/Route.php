@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Forpart;
+namespace Axcel\AxcelCore\Forpart;
 
 /**
  * Class Route
@@ -8,7 +8,7 @@ namespace App\Core\Forpart;
  * This class serves as a static proxy to the router service, allowing
  * easy access to routing methods, including middleware handling for routes.
  *
- * @package App\Core\Forpart
+ * @package Axcel\AxcelCore\Forpart
  *
  * @method static void get(string $uri, callable|array|string $action) Register a GET route
  * @method static void post(string $uri, callable|array|string $action) Register a POST route

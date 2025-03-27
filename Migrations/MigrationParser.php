@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Migrations;
+namespace Axcel\AxcelCore\Migrations;
 
 use DateTime;
 

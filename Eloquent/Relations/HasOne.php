@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Core\Eloquent\Relations;
+namespace Axcel\AxcelCore\Eloquent\Relations;
 
 use Axcel\Core\Eloquent\Database\Builder\Builder;
 use Axcel\Core\Eloquent\Foundations\Model;

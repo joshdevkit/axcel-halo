@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Bus;
+namespace Axcel\AxcelCore\Bus;
 
 use Psr\Container\ContainerInterface;
 use ReflectionClass;

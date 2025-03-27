@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\View;
+namespace Axcel\AxcelCore\View;
 
 use Axcel\Core\Bus\Container;
 

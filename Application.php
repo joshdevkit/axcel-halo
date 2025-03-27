@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core;
+namespace Axcel\AxcelCore;
 
 use Axcel\Core\Auth\AuthManager;
 use Axcel\Core\Autloader\Config;

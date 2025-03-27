@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Database\Builder\Traits;
+namespace Axcel\AxcelCore\Eloquent\Database\Builder\Traits;
 
 
 trait RelationTrait

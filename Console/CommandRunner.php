@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Console;
+namespace Axcel\AxcelCore\Console;
 
 use Axcel\Core\Console\Commands\MigrateCommand;
 use Axcel\Core\Console\Commands\MigrationCommand;

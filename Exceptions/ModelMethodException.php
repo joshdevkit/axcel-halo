@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Exceptions;
+namespace Axcel\AxcelCore\Exceptions;
 
 class ModelMethodException extends \BadMethodCallException
 {

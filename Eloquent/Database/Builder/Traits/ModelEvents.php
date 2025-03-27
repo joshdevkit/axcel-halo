@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Database\Builder\Traits;
+namespace Axcel\AxcelCore\Eloquent\Database\Builder\Traits;
 
 use Axcel\Core\Eloquent\Foundations\Events\ModelEvent;
 use Axcel\Core\Eloquent\Foundations\Model;

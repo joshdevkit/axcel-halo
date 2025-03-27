@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Validators;
+namespace Axcel\AxcelCore\Validators;
 
 use Axcel\Core\Http\Request;
 use Exception;

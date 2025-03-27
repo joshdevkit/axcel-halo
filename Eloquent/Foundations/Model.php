@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Foundations;
+namespace Axcel\AxcelCore\Eloquent\Foundations;
 
 use Axcel\Core\Attributes\Str;
 use Axcel\Core\Eloquent\Database\Builder\Builder;

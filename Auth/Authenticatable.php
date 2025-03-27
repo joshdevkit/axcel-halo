@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Auth;
+namespace Axcel\AxcelCore\Auth;
 
 trait Authenticatable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Console\Commands;
+namespace Axcel\AxcelCore\Console\Commands;
 
 use Doctrine\Migrations\Configuration\Migration\PhpFile;
 use Doctrine\Migrations\DependencyFactory;

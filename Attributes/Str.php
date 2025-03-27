@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Attributes;
+namespace Axcel\AxcelCore\Attributes;
 
 class Str
 {

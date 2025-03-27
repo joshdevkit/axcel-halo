@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Session;
+namespace Axcel\AxcelCore\Session;
 
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Services\Mail;
+namespace Axcel\AxcelCore\Services\Mail;
 
 use Axcel\Core\Autloader\Config;
 use Symfony\Component\Mailer\Mailer;

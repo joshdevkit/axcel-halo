@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Auth;
+namespace Axcel\AxcelCore\Auth;
 
 use Axcel\Core\Eloquent\Foundations\Model;
 use Axcel\Core\Auth\Contracts\AuthenticatableContract;

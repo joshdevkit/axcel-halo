@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Routing;
+namespace Axcel\AxcelCore\Routing;
 
 use Axcel\Core\Bus\Container;
 use Axcel\Core\Exceptions\RouteDispatchException;

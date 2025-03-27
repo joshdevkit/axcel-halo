@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Database;
+namespace Axcel\AxcelCore\Eloquent\Database;
 
 use PDO;
 use PDOException;

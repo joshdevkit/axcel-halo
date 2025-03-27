@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Security;
+namespace Axcel\AxcelCore\Security;
 
 use Axcel\Core\Contracts\Hashing as HashingInterface;
 use Axcel\Core\Contracts\Hashing\AbstractHasher;

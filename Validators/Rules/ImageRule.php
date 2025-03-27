@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Validators\Rules;
+namespace Axcel\AxcelCore\Validators\Rules;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 

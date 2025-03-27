@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Http;
+namespace Axcel\AxcelCore\Http;
 
 
 class Redirect extends Response

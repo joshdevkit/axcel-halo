@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Console\Commands;
+namespace Axcel\AxcelCore\Console\Commands;
 
 use Axcel\Core\Console\CommandInterface;
 use Axcel\Core\Migrations\MigrationParser;

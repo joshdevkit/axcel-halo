@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Auth;
+namespace Axcel\AxcelCore\Auth;
 
 use Axcel\Core\Auth\Contracts\AuthenticatableContract;
 use Axcel\Core\Forpart\Hash;

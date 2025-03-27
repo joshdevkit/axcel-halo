@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Contracts;
+namespace Axcel\AxcelCore\Contracts;
 
 interface Hashing
 {

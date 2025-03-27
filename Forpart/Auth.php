@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Forpart;
+namespace Axcel\AxcelCore\Forpart;
 
 /**
  * Class Auth
@@ -9,7 +9,7 @@ namespace App\Core\Forpart;
  * easy access to authentication-related methods, such as logging in,
  * logging out, and checking the user's authentication status.
  *
- * @package App\Core\Forpart
+ * @package Axcel\AxcelCore\Forpart
  *
  * @method static bool attempt(string $email, string $password) Attempt to authenticate a user
  * @method static void login(User $user) Log in a user and store user session

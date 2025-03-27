@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Foundations\Schema;
+namespace Axcel\AxcelCore\Eloquent\Foundations\Schema;
 
 class Blueprint
 {

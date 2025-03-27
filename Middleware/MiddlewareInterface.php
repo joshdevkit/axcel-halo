@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Middleware;
+namespace Axcel\AxcelCore\Middleware;
 
 use Axcel\Core\Http\Request;
 

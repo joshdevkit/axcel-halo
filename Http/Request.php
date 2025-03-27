@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Http;
+namespace Axcel\AxcelCore\Http;
 
 use Axcel\Core\Http\Concerns\InteractsWithFileBag;
 use Axcel\Core\Http\Concerns\InteractsWithInputBag;

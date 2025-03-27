@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Contracts\Hashing;
+namespace Axcel\AxcelCore\Contracts\Hashing;
 
 abstract class AbstractHasher
 {

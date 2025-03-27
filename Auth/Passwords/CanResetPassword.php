@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Auth\Passwords;
+namespace Axcel\AxcelCore\Auth\Passwords;
 
 trait CanResetPassword
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Foundations\Traits;
+namespace Axcel\AxcelCore\Eloquent\Foundations\Traits;
 
 trait HideAttributes
 {

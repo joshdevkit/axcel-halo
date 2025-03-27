@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Http;
+namespace Axcel\AxcelCore\Http;
 
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 

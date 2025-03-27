@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Database\Builder\Traits;
+namespace Axcel\AxcelCore\Eloquent\Database\Builder\Traits;
 
 use Exception;
 
@@ -10,7 +10,7 @@ trait CompileFirst
      * Execute the query and get the first result.
      *
      * @param array $columns
-     * @return \App\Core\Eloquent\Foundations\Model|null
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model|null
      */
     public function first($columns = ['*'])
     {
@@ -29,7 +29,7 @@ trait CompileFirst
      * Execute the query and get the first result or throw an exception.
      *
      * @param array $columns
-     * @return \App\Core\Eloquent\Foundations\Model
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model
      * @throws \Exception
      */
     public function firstOrFail($columns = ['*'])
@@ -49,7 +49,7 @@ trait CompileFirst
      *
      * @param array $attributes
      * @param array $values
-     * @return \App\Core\Eloquent\Foundations\Model
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model
      */
     public function firstOrCreate(array $attributes, array $values = [])
     {

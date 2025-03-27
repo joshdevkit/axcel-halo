@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Auth\Contracts;
+namespace Axcel\AxcelCore\Auth\Contracts;
 
 interface AuthenticatableContract
 {

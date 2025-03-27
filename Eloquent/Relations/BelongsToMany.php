@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Relations;
+namespace Axcel\AxcelCore\Eloquent\Relations;
 
 use Axcel\Core\Eloquent\Foundations\Model;
 use Axcel\Core\Eloquent\Database\Builder\Builder;
@@ -48,7 +48,7 @@ class BelongsToMany extends Relation
     /**
      * Match the related models to their parent.
      *
-     * @param  \App\Core\Eloquent\Foundations\Collection  $models
+     * @param  \Axcel\AxcelCore\Eloquent\Foundations\Collection  $models
      * @return void
      */
     public function match($models)

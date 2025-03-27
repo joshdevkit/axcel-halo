@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\Eloquent\Database\Builder;
+namespace Axcel\AxcelCore\Eloquent\Database\Builder;
 
 use Axcel\Core\Eloquent\Database\Builder\Traits\CompileFirst;
 use Axcel\Core\Eloquent\Database\Builder\Traits\Compiler;
@@ -26,7 +26,7 @@ class Builder
     /**
      * The model being queried.
      *
-     * @var \App\Core\Eloquent\Foundations\Model
+     * @var \Axcel\AxcelCore\Eloquent\Foundations\Model
      */
     protected $model;
 
@@ -129,7 +129,7 @@ class Builder
     /**
      * Set the model instance for the builder.
      *
-     * @param \App\Core\Eloquent\Foundations\Model $model
+     * @param \Axcel\AxcelCore\Eloquent\Foundations\Model $model
      * @return $this
      */
     public function setModel(Model $model)
@@ -247,7 +247,7 @@ class Builder
      *
      * @param mixed $id
      * @param array $columns
-     * @return \App\Core\Eloquent\Foundations\Model|null
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model|null
      */
     public function find($id, $columns = ['*'])
     {
@@ -263,7 +263,7 @@ class Builder
      *
      * @param mixed $id
      * @param array $columns
-     * @return \App\Core\Eloquent\Foundations\Model
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model
      * @throws \Exception
      */
     public function findOrFail($id, $columns = ['*'])
@@ -281,7 +281,7 @@ class Builder
      * Execute the query and get the results.
      *
      * @param array $columns
-     * @return \App\Core\Eloquent\Foundations\Collection
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Collection
      */
     public function get($columns = ['*'])
     {
@@ -312,7 +312,7 @@ class Builder
                 if (method_exists($model, $relation)) {
                     // Get the relation query
                     $relationQuery = $model->$relation();
-                    if ($relationQuery instanceof \App\Core\Eloquent\Database\Builder\Builder) {
+                    if ($relationQuery instanceof \Axcel\AxcelCore\Eloquent\Database\Builder\Builder) {
                         // dd("hasmany method called! true");
                         $relationData = $relationQuery->get();
                         $model->setRelation($relation, $relationData);
@@ -332,7 +332,7 @@ class Builder
     /**
      * Get all of the models from the database.
      *
-     * @return App\Core\Eloquent\Foundations\Collection
+     * @return Axcel\AxcelCore\Eloquent\Foundations\Collection
      */
     public function all($columns = ['*'])
     {
@@ -380,7 +380,7 @@ class Builder
      * Create a new record in the database.
      *
      * @param array $attributes
-     * @return \App\Core\Eloquent\Foundations\Model
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model
      */
     public function create(array $attributes)
     {
@@ -395,7 +395,7 @@ class Builder
     /**
      * Save the model to the database.
      *
-     * @param \App\Core\Eloquent\Foundations\Model $model
+     * @param \Axcel\AxcelCore\Eloquent\Foundations\Model $model
      * @return bool
      */
     public function saveModel(Model $model)
@@ -528,7 +528,7 @@ class Builder
      *
      * @param array $attributes
      * @param array $values
-     * @return \App\Core\Eloquent\Foundations\Model
+     * @return \Axcel\AxcelCore\Eloquent\Foundations\Model
      */
     public function updateOrCreate(array $attributes, array $values = [])
     {
