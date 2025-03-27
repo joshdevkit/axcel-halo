@@ -2,7 +2,7 @@
 
 namespace App\Core\Autloader;
 
-use App\Core\Bus\Container;
+use Axcel\Core\Bus\Container;
 
 class Config
 {

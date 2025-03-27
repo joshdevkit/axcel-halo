@@ -2,7 +2,7 @@
 
 namespace App\Core\Validators;
 
-use App\Core\Http\Request;
+use Axcel\Core\Http\Request;
 use Exception;
 
 abstract class FormRequest extends Request

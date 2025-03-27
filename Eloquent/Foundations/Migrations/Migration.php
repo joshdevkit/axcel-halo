@@ -2,7 +2,7 @@
 
 namespace App\Core\Eloquent\Foundations\Migrations;
 
-use App\Core\Eloquent\Foundations\Schema\Blueprint;
+use Axcel\Core\Eloquent\Foundations\Schema\Blueprint;
 
 class Migration
 {

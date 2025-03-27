@@ -2,14 +2,14 @@
 
 namespace App\Core\Eloquent\Database\Builder;
 
-use App\Core\Eloquent\Database\Builder\Traits\CompileFirst;
-use App\Core\Eloquent\Database\Builder\Traits\Compiler;
-use App\Core\Eloquent\Database\Builder\Traits\CompileWheres;
-use App\Core\Eloquent\Database\Builder\Traits\Counting;
-use App\Core\Eloquent\Database\Builder\Traits\Orders;
-use App\Core\Eloquent\Foundations\Model;
-use App\Core\Eloquent\Database\ConnectionManager;
-use App\Core\Eloquent\Foundations\Collection;
+use Axcel\Core\Eloquent\Database\Builder\Traits\CompileFirst;
+use Axcel\Core\Eloquent\Database\Builder\Traits\Compiler;
+use Axcel\Core\Eloquent\Database\Builder\Traits\CompileWheres;
+use Axcel\Core\Eloquent\Database\Builder\Traits\Counting;
+use Axcel\Core\Eloquent\Database\Builder\Traits\Orders;
+use Axcel\Core\Eloquent\Foundations\Model;
+use Axcel\Core\Eloquent\Database\ConnectionManager;
+use Axcel\Core\Eloquent\Foundations\Collection;
 use PDO;
 use Exception;
 

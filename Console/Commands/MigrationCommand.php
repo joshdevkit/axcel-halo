@@ -2,8 +2,8 @@
 
 namespace App\Core\Console\Commands;
 
-use App\Core\Console\CommandInterface;
-use App\Core\Migrations\MigrationParser;
+use Axcel\Core\Console\CommandInterface;
+use Axcel\Core\Migrations\MigrationParser;
 
 class MigrationCommand implements CommandInterface
 {

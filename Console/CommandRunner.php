@@ -2,8 +2,8 @@
 
 namespace App\Core\Console;
 
-use App\Core\Console\Commands\MigrateCommand;
-use App\Core\Console\Commands\MigrationCommand;
+use Axcel\Core\Console\Commands\MigrateCommand;
+use Axcel\Core\Console\Commands\MigrationCommand;
 
 class CommandRunner
 {

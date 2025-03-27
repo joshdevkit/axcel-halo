@@ -2,7 +2,7 @@
 
 namespace App\Core\Services\Mail;
 
-use App\Core\Autloader\Config;
+use Axcel\Core\Autloader\Config;
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport;
 use Symfony\Component\Mime\Email;

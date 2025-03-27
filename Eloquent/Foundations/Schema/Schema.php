@@ -2,7 +2,7 @@
 
 namespace App\Core\Eloquent\Foundations\Schema;
 
-use App\Core\Eloquent\Foundations\Migrations\Migration;
+use Axcel\Core\Eloquent\Foundations\Migrations\Migration;
 
 class Schema
 {

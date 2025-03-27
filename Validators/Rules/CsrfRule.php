@@ -2,7 +2,7 @@
 
 namespace App\Core\Validators\Rules;
 
-use App\Core\Http\Request;
+use Axcel\Core\Http\Request;
 use Symfony\Component\Security\Csrf\CsrfToken;
 
 class CsrfRule

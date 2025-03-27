@@ -9,7 +9,7 @@ use Doctrine\Migrations\Tools\Console\Command\StatusCommand;
 use Doctrine\Migrations\Tools\Console\Command\MigrateCommand as DoctrineMigrateCommand;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\ConsoleOutput;
-use App\Core\Eloquent\Database\ConnectionManager;
+use Axcel\Core\Eloquent\Database\ConnectionManager;
 
 class MigrateCommand
 {

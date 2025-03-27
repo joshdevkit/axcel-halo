@@ -8,5 +8,10 @@
             "email": "102531192+joshdevkit@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Axcel\\Core": "."
+        }
+    }
 }

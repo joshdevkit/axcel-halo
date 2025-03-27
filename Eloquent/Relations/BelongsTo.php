@@ -2,8 +2,8 @@
 
 namespace App\Core\Eloquent\Relations;
 
-use App\Core\Eloquent\Foundations\Model;
-use App\Core\Eloquent\Database\Builder\Builder;
+use Axcel\Core\Eloquent\Foundations\Model;
+use Axcel\Core\Eloquent\Database\Builder\Builder;
 
 class BelongsTo extends Relation
 {

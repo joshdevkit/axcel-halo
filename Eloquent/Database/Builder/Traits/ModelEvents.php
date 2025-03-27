@@ -2,8 +2,8 @@
 
 namespace App\Core\Eloquent\Database\Builder\Traits;
 
-use App\Core\Eloquent\Foundations\Events\ModelEvent;
-use App\Core\Eloquent\Foundations\Model;
+use Axcel\Core\Eloquent\Foundations\Events\ModelEvent;
+use Axcel\Core\Eloquent\Foundations\Model;
 
 trait ModelEvents
 {

@@ -2,8 +2,8 @@
 
 namespace App\Core\Validators\Rules;
 
-use App\Core\Attributes\Str;
-use App\Core\BaseModel;
+use Axcel\Core\Attributes\Str;
+use Axcel\Core\BaseModel;
 
 class UniqueRule
 {

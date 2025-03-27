@@ -6,7 +6,7 @@ use PDO;
 use PDOException;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Connection;
-use App\Core\Application;
+use Axcel\Core\Application;
 
 class ConnectionManager
 {

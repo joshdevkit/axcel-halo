@@ -2,7 +2,7 @@
 
 namespace App\Core\Validators\Rules;
 
-use App\Core\Attributes\Str;
+use Axcel\Core\Attributes\Str;
 
 class ExistsRule
 {

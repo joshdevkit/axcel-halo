@@ -2,7 +2,7 @@
 
 namespace App\Core\Middleware;
 
-use App\Core\Http\Request;
+use Axcel\Core\Http\Request;
 
 interface MiddlewareInterface
 {

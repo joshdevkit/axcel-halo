@@ -2,7 +2,7 @@
 
 namespace App\Core\Forpart;
 
-use App\Core\Application;
+use Axcel\Core\Application;
 
 abstract class Forpart
 {

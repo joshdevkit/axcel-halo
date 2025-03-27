@@ -2,20 +2,20 @@
 
 namespace App\Core;
 
-use App\Core\Auth\AuthManager;
-use App\Core\Autloader\Config;
-use App\Core\Autloader\EnvLoader;
-use App\Core\Bus\Container;
-use App\Core\Routing\Router;
-use App\Core\Middleware\MiddlewareRegistry;
-use App\Core\Eloquent\Database\Database;
-use App\Core\Exceptions\NativeException;
-use App\Core\Http\Request;
-use App\Core\Http\Response;
-use App\Core\Security\HasherPackage;
-use App\Core\Services\Mail\MailManager;
-use App\Core\Session\SessionManager;
-use App\Core\View\ViewFactory;
+use Axcel\Core\Auth\AuthManager;
+use Axcel\Core\Autloader\Config;
+use Axcel\Core\Autloader\EnvLoader;
+use Axcel\Core\Bus\Container;
+use Axcel\Core\Routing\Router;
+use Axcel\Core\Middleware\MiddlewareRegistry;
+use Axcel\Core\Eloquent\Database\Database;
+use Axcel\Core\Exceptions\NativeException;
+use Axcel\Core\Http\Request;
+use Axcel\Core\Http\Response;
+use Axcel\Core\Security\HasherPackage;
+use Axcel\Core\Services\Mail\MailManager;
+use Axcel\Core\Session\SessionManager;
+use Axcel\Core\View\ViewFactory;
 use Symfony\Component\Security\Csrf\CsrfTokenManager;
 use Symfony\Component\Security\Csrf\TokenGenerator\UriSafeTokenGenerator;
 use Symfony\Component\Security\Csrf\TokenStorage\SessionTokenStorage;
