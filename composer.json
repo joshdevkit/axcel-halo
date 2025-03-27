@@ -1,0 +1,12 @@
+{
+    "name": "axcel/axcel-core",
+    "description": "PHP framework support ORM",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Pacho",
+            "email": "102531192+joshdevkit@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
