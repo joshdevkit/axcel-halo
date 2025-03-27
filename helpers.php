@@ -34,10 +34,12 @@ if (!function_exists('json')) {
     }
 }
 
+
 if (!function_exists('base_path')) {
     function base_path($path = '')
     {
-        return rtrim(dirname(dirname(__DIR__)), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . ltrim($path, DIRECTORY_SEPARATOR);
+        $baseDir = realpath(dirname(__DIR__, 3));
+        return rtrim($baseDir, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . ltrim($path, DIRECTORY_SEPARATOR);
     }
 }
 
