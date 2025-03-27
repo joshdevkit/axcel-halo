@@ -12,7 +12,7 @@ class MigrationParser
         $timestamp = (new DateTime())->format('YmdHis');
         $className = "Version{$timestamp}_" . self::convertToClassName($name);
         $filename = "{$className}.php";
-        $filePath = __DIR__ . "/../../../database/migrations/{$filename}";
+        $filePath = base_path("database/migrations/{$filename}");
 
         if (file_exists($filePath)) {
             echo "Migration already exists: database/migrations/{$filename}\n";
